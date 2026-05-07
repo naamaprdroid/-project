@@ -1,0 +1,32 @@
+button {
+     cursor: pointer;
+     font-size: 5mm;
+     length:3mm;
+     background-color: #e1616b;
+
+    }
+    #loginSection {
+    display: flex;           
+    flex-direction: column; 
+    gap: 10px;               
+    align-items: center;
+}
+body {
+  margin: 0;                /* מבטל רווחים מיותרים בשולי המסך */
+  display: flex;            /* מפעיל את שיטת התיבות הגמישות */
+  flex-direction: column;   /* מסדר את הדברים בטור (אחד מתחת לשני) */
+  justify-content: center;  /* מרכז את הכל בצורה אנכית (מלמעלה למטה) */
+  align-items: center;      /* מרכז את הכל בצורה אופקית (מימין לשמאל) */
+  min-height: 10vh;        /* אומר לגוף האתר לתפוס לפחות 100% מגובה המסך */ 
+ font-size: x-large;
+ background-color: #df737c;
+
+}
+input {
+  width: 300px;    /* קובע את הרוחב של התיבה */
+  height: 25px;   /* קובע את הגובה של התיבה */
+  padding: 10px;  /* מוסיף מרווח פנימי כדי שהטקסט לא יידבק לקצוות */
+  font-size: 18px; /* מגדיל את הטקסט שכותבים בתוך התיבה */
+  color: rgb(228, 81, 106);
+}
+
